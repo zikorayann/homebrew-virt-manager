@@ -1,8 +1,8 @@
 class VirtViewer < Formula
   desc "App for virtualized guest interaction"
   homepage "https://virt-manager.org/"
-  url "https://virt-manager.org/download/sources/virt-viewer/virt-viewer-8.0.tar.gz"
-  sha256 "dcf358ed5d7a4900215133135a6492c04311d84332816d930df9a89d6195b6ed"
+  url "https://gitlab.com/virt-viewer/virt-viewer/-/archive/v11.0/virt-viewer-v11.0.tar.gz"
+  sha256 "73e2f0148dd49c5ff5e8c5d0e9d9de592931895e89e2300e3de4ae96d8380a9b"
 
   depends_on "intltool" => :build
   depends_on "libtool" => :build
